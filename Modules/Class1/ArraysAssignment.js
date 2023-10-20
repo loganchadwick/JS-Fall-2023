@@ -1,0 +1,24 @@
+let students = ['Robert', 'Josh', 'Kate', 'Sam', 'Sarah'];
+console.log(students.length);
+const poppedValue = students.pop();
+console.log(poppedValue);
+const pushedValue = students.push('Logan');
+console.log(pushedValue);
+const shiftedValue = students.shift();
+console.log(shiftedValue);
+const unshiftedValue = students.unshift('Tyler');
+console.log(unshiftedValue);
+const splicedValue = students.splice(0,2,'Abby','Jan')
+console.log(splicedValue);
+const includesJohn = students.includes('John');
+console.log(includesJohn);
+const indexOfKate = students.indexOf('Kate');
+console.log(indexOfKate);
+const reversedValue = students.reverse();
+console.log(reversedValue);
+const lastReversedValue = reversedValue[reversedValue.length - 1];
+console.log(lastReversedValue);
+let firstValue = students[0];
+let lastValue = students[students.length - 1];
+let message = (firstValue === lastValue) ? "The first and last values of the array are the same." : "The first and last values of the array are different.";
+console.log(message);
